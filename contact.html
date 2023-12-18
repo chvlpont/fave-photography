@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1f88ec5ec2.js" crossorigin="anonymous"></script>
+    <title>Kontakt - Fave Photography</title>
+</head>
+<body>
+    <nav>
+        <span>Logga</span>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-us.html">Om oss</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+        <span>SV/EN</span>
+    </nav>
+
+    <header>    <!--  Klassnamn för att särskilja på homepage? -->
+        <h1>Kontakta Oss</h1>
+        <p>Det finns många sätt du kan komma i kontakt med oss och du får gärna använda den som passar dig bäst. Till exempel kan du kontakta oss på den traditionella sättet genom att ringa oss på en av de telefonnummer som finns under eller kanske ge oss en fysik besök i vår studio i Uppsala. Du kan också skicka en formulär via vår websida. Sist men inte minst kan du alltid skicka ett mejl som är nog den vanligaste sätt att kommunicera nuförtiden. Här nere hittar du det smidigaste sätet som passar bäst dig att komma i kontakt med oss.</p>
+    </header>
+
+    <div>
+        <div>
+            <i class="fa-solid fa-phone fa-6x"></i>
+            <p>Mobil</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-location-dot fa-6x"></i>
+            <p>Adress</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-envelope fa-6x"></i>
+            <p>Email</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-thumbs-up fa-6x"></i>
+            <p>Connect</p>
+        </div>
+    </div>
+
+    <form>
+        <legend>Kontakta oss!</legend>
+        <fieldset>
+            <br><br>
+            <label for="clientName">Fullständiga namn</label>
+            <input type="text" maxlength="30" placeholder="Skriv in ditt fullständiga namn">
+    
+            <label for="eventType">Typ av Event</label>
+            <select id="eventType" name="eventType">
+                <option value="wedding">Bröllop</option>
+                <option value="portrait">Kulturella & Konstnärliga evenemang</option>
+                <option value="event">Porträtt</option>
+                <option value="commercial">Design & inredning</option>
+            </select>
+    
+    
+    
+            <label for="contactInfo">Kontakt Information</label>
+            <textarea cols="80" rows="5" maxlength="200" placeholder="Fullständiga Kontaktinformation"></textarea>
+    
+            <label for="uploadFiles">Ladda upp bilder/dokument</label>
+            <input type="file" accept=".jpg, .jpeg, .png, .pdf">
+    
+            <button type="submit">Skicka</button>
+        </fieldset>
+    </form>
+
+    <footer>
+        <div class="footer-contatiner">
+          <div class="footer-icons">
+            <div class="footer-logo-left">
+              <img src="/Fave Photography_No_text.png"" alt="Left Logo" />
+            </div>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <div class="footer-logo-right">
+              <img src="/Fave Photography_No_text_2.png"" alt="Right Logo" />
+            </div>
+          </div>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="">Ring Oss</a></li>
+              <li><a href="">Maila Oss</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
