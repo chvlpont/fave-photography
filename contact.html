@@ -42,7 +42,32 @@
         </div>
     </div>
 
-    <!-- Kotaktformulär -->
+    <form>
+        <legend>Kontakta oss!</legend>
+        <fieldset>
+            <br><br>
+            <label for="clientName">Fullständiga namn</label>
+            <input type="text" maxlength="30" placeholder="Skriv in ditt fullständiga namn">
+    
+            <label for="eventType">Typ av Event</label>
+            <select id="eventType" name="eventType">
+                <option value="wedding">Bröllop</option>
+                <option value="portrait">Kulturella & Konstnärliga evenemang</option>
+                <option value="event">Porträtt</option>
+                <option value="commercial">Design & inredning</option>
+            </select>
+    
+    
+    
+            <label for="contactInfo">Kontakt Information</label>
+            <textarea cols="80" rows="5" maxlength="200" placeholder="Fullständiga Kontaktinformation"></textarea>
+    
+            <label for="uploadFiles">Ladda upp bilder/dokument</label>
+            <input type="file" accept=".jpg, .jpeg, .png, .pdf">
+    
+            <button type="submit">Skicka</button>
+        </fieldset>
+    </form>
 
     <footer>
         <div class="footer-contatiner">
