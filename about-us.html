@@ -14,58 +14,86 @@
     <title>Om oss - Fave Photography</title>
 </head>
 <body>
-    <nav>
-        <span>Logga</span>
+    <nav class="otherPageNav">
+      <img src="/Logo/Fave Photography3.png" alt="Logo" class="logo">
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about-us.html">Om oss</a></li>
             <li><a href="./contact.html">Kontakt</a></li>
         </ul>
-        <span>SV/EN</span>
+        <span id="translateButton">
+          <img class="flag active" src="https://flagicons.lipis.dev/flags/4x3/se.svg" alt="sweden">
+          <span class="separator">|</span>
+          <img class="flag" src="https://flagicons.lipis.dev/flags/4x3/us.svg" alt="america">
+      </span>
     </nav>
 
-    <header>    <!--  Klassnamn för att särskilja på homepage? -->
-        <h1>Här är vi</h1>
-        <img class="group-picture"src="https://picsum.photos/1500/500">
-    </header>
-
+   
+    <h1 class="om-oss-heading">Om oss</h1>
+    
+    <h2 class="om-oss-sub-heading">Våran Historia</h2>
     <div class="om-oss-container">
         <div class="om-oss-content1">  
-            <img src="https://picsum.photos/400/400">
-            <p>Vi och våra kameror är redo att träffa dig för en speciell stund där du kan uttrycka kärlek till dig själv och dina nära och kära, eller kanske kärlek till musik eller dans, och till det du gör i livet. Vi ska vara bakom scenen och vara säkra att alla ögonblicken “sparas”.</p>
-        </div>
+          <div class="image">
+            <img src="https://images.pexels.com/photos/17865768/pexels-photo-17865768/free-photo-of-photographers-taking-picture-of-a-young-woman-outside.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          </div>
+            <div class="text">
+              <p>Fave Photography tog sin början för 13 år sedan, ur en passion för att fånga ögonblickets äkthet och tidlöshet. Det hela började med en enkel önskan – att skapa bilder som inte bara är vackra utan även bär på en djupare betydelse. Vi startade med en kamera, en dröm och en stark tro på att varje klick ska berätta en unik historia. Under åren har vår resa varit en mix av hängivenhet, lärande och en ständig strävan efter att föreviga äkta känslor. Från de första skedena till dagens stolthet har vi utvecklats till historieberättare genom linserna, med varje foto som bär på vår resa, vårt engagemang och vår passion.</p>
+            </div>
+            </div>
 
-        <h2>Varför ska du anlita Fave Photagraphy?</h2>
+        <h2 class="om-oss-sub-heading">Vilka är vi?</h2>
 
         <div class="om-oss-content2-container">
-            <div class="om-oss-content2">
-                <div>
-                    <p>"Jag har stenkoll på detaljer, älskar att skapa nya kompositioner, samtidigt utveckla hela konceptet för er fotografering"</p>
-                    <img src="https://picsum.photos/200/300">
-                </div>
-                <div>
-                    <p>"Jag har stenkoll på detaljer, älskar att skapa nya kompositioner, samtidigt utveckla hela konceptet för er fotografering"</p>
-                    <img src="https://picsum.photos/200/300">
-                </div>
+          <div class="om-oss-content2">
+            <div class="person">
+              <img src="https://images.pexels.com/photos/1466845/pexels-photo-1466845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+              <h3>John Doe</h3>
+              <p class="role">Photographer</p>
+              <p>"John has a keen eye for detail, loves creating new compositions, and excels at developing the entire concept for your photography needs."</p>
             </div>
-            <div class="om-oss-content2">
-                <div>
-                    <img src="https://picsum.photos/200/300">
-                    <p>"Jag har stenkoll på detaljer, älskar att skapa nya kompositioner, samtidigt utveckla hela konceptet för er fotografering"</p>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/200/300">
-                    <p>"Jag har stenkoll på detaljer, älskar att skapa nya kompositioner, samtidigt utveckla hela konceptet för er fotografering"</p>
-                </div>
+            <div class="person">
+              <img src="https://images.pexels.com/photos/1466845/pexels-photo-1466845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+              <h3>Jane Smith</h3>
+              <p class="role">Photo Editor</p>
+              <p>"Jane is a skilled photo editor who brings out the best in every image. She has a passion for enhancing visual storytelling."</p>
             </div>
+          </div>
+          <div class="om-oss-content2">
+            <div class="person">
+              <img src="https://images.pexels.com/photos/1466845/pexels-photo-1466845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+              <h3>Michael Johnson</h3>
+              <p class="role">Art Director</p>
+              <p>"Michael is an experienced art director who ensures that every photoshoot is executed with creativity and precision."</p>
+            </div>
+            <div class="person">
+              <img src="https://images.pexels.com/photos/1466845/pexels-photo-1466845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+              <h3>Sarah Thompson</h3>
+              <p class="role">Client Relations Manager</p>
+              <p>"Sarah is dedicated to providing exceptional customer service and ensuring a smooth and enjoyable experience for our clients."</p>
+            </div>
+          </div>
         </div>
-    </div>
+
+
+
+
+        <h2 class="om-oss-sub-heading">Varför ska ni anlita oss?</h2>
+    <div class="om-oss-container">
+        <div class="om-oss-content3">  
+          <div class="text">
+            <p>Vårt arbete är inte bara att fånga ögonblick – det är att skapa minnen som varar för evigt. Vi har haft privilegiet att fotografera vid exklusiva evenemang som nobelmiddagar och kungliga tillställningar, där varje klick har fångat historiska ögonblick. Vår erfarenhet sträcker sig över 13 år med en dedikation till att leverera bilder av högsta kvalitet, vare sig det är på storslagna evenemang eller vid intima ögonblick. Att anlita oss innebär att du inte bara får fotografer av högsta kaliber, utan också berättare som förmedlar känslor, historia och äkthet i varje foto. Vare sig det är för stora händelser eller personliga ögonblick, är vår passion att göra varje ögonblick oförglömligt.</p>
+          </div>
+          <div class="image">
+            <img src="https://nobelprizemuseum.se/wp-content/uploads/2020/04/Kampanjbild_Nobelfesten_upprop_webb-768x576.jpg">
+          </div>
+            </div>
 
     <footer>
         <div class="footer-contatiner">
           <div class="footer-icons">
             <div class="footer-logo-left">
-              <img src="/Fave Photography_No_text.png"" alt="Left Logo" />
+              <img src="/Logo/Fave Photography_No_text.png"" alt="Left Logo" />
             </div>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -73,7 +101,7 @@
             <a href=""><i class="fa-brands fa-google-plus"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
             <div class="footer-logo-right">
-              <img src="/Fave Photography_No_text_2.png"" alt="Right Logo" />
+              <img src="/Logo/Fave Photography_No_text_2.png"" alt="Right Logo" />
             </div>
           </div>
           <div class="footer-nav">
