@@ -23,8 +23,8 @@
 
 
 body {
-    background-color: var(--body-background-color)
-    
+    background-color: var(--body-background-color);
+    font-family: Nunito, Poppins, Karla;
 }
 
 
@@ -335,7 +335,6 @@ header {
   .section-content h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: lato;
     color: var(--subheadings-color)
   }
 
@@ -377,7 +376,6 @@ header {
   .banner-content h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: lato;
     color: var(--subheadings-color)
   }
 
