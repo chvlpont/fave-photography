@@ -27,6 +27,13 @@ body {
     
 }
 
+body h2, h1 {
+  font-family: Nunito;
+}
+
+body p {
+  font-family: poppins;
+}
 
 /* Header styles */
 header {
@@ -41,7 +48,7 @@ header {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: var(--headings-color)
+    color: var(--headings-color);
   }
 
   header p {
@@ -335,7 +342,6 @@ header {
   .section-content h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: lato;
     color: var(--subheadings-color)
   }
 
@@ -377,7 +383,6 @@ header {
   .banner-content h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: lato;
     color: var(--subheadings-color)
   }
 
